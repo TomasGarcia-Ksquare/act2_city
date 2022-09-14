@@ -1,12 +1,210 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+
+        body {
+            font-family: Arial;
+            padding: 20px;
+            background: black;
+
+        }
+
+
+        .header {
+            padding: 30px;
+            font-size: 40px;
+            text-align: center;
+            background-image: url("https://monchitime.com/www/wp-content/uploads/2021/09/Merida-4.jpg");
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-position: center;
+            color: white;
+        }
+
+
+        .img1 {
+            float: left;
+            height: 100%;
+            width: 50%;
+            padding-right: 20px;
+        }
+
+        .img2 {
+            float: right;
+            height: 100%;
+            width: 50%;
+            padding-left: 20px;
+        }
+
+        .card1 {
+            float: left;
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+            width: 100%;
+        }
+
+        .card2 {
+            float: right;
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+            width: 100%;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background: #ddd;
+            margin-top: 20px;
+        }
+
+        #merida-park {
+            width: 100%;
+        }
+
+        #merida-park-img {
+            width: 100%;
+        }
+    </style>
 </head>
+
 <body>
-    <p>hola mundo</p>
+    <nav>
+        <a href="./index.html">Home</a>
+        <a href="">About the city</a>
+        <a href="">Cochinita Pibil</a>
+        <a href="">Points of interest</a>
+    </nav>
+
+    <div class="header">
+        <h2>Mérida City</h2>
+    </div>
+
+    <div class="row">
+        <article>
+            <div class="card1">
+                <h2>About the city</h2>
+                <h5>Sep. 13, 2022.</h5>
+                <img class="img1"
+                    src="https://emot4jriyur.exactdn.com/wp-content/uploads/2021/10/merida-discover-beauty-yucatans-capital-city.jpg"
+                    alt="Center of Mérida City">
+                <p>Mérida is the capital of the Mexican state of Yucatán, and the largest city in southeastern Mexico.
+                    The city is also the seat of the eponymous Municipality. It is located in the northwest corner of
+                    the Yucatán Peninsula, about 35 km inland from the coast of the Gulf of Mexico.</p>
+                <p>The city's rich cultural heritage is a product of the syncretism of the Maya and Spanish cultures
+                    during
+                    the colonial era. It was the first city to be ever named American Capital of Culture and is the only
+                    city that has received the title twice. The Cathedral of Mérida, Yucatán was built in the late 16th
+                    century with stones from nearby Mayan ruins and is known to be the oldest cathedral in the mainland
+                    Americas. In addition, the city has the third largest old town district on the continent. In
+                    2007, the city was visited by former U.S. President George W. Bush to meet with the ex-president of
+                    Mexico Felipe Calderón for the historic creation of the Mérida Initiative.</p>
+                <p>Mérida is often considered the safest city of Mexico and one of the safest cities in the Americas. In
+                    2019 it hosted the 17th World Summit of Nobel Peace Laureates, receiving more than 30 of them. It is
+                    a City of Gastronomy as part of the UNESCO's Creative Cities Network. The UN-Habitat's City
+                    Prosperity Index recognized Mérida as the best city to live in Mexico for its high quality of life.
+                    The city was certified as an International Safe Community by the Karolinska Institute of Sweden for
+                    its
+                    high level of public security. Forbes magazine has ranked Mérida three different times as one of the
+                    three best cities in Mexico to live, invest and do business.</p>
+            </div>
+        </article>
+        <article>
+            <div class="card2">
+                <h2>Cochinita Pibil</h2>
+                <h5>Sep 13, 2022.</h5>
+                <img class="img2"
+                    src="https://i.blogs.es/83eca5/como-hacer-cochinita-pibil-en-olla-expres/1366_2000.jpg"
+                    alt="Cochinita Pibil">
+                <p>This dish is the best known in the Yucatán Peninsula and is my favourite in the culinary crown of
+                    Mérida
+                    food.
+                    It is cooked using a technique created by Maya people called “pib”, which means “buried”. Therefore,
+                    these are holes in the ground that function as furnaces. </p>
+                <p>The “Cochinita Pibil” is a preparation of pork marinated with delicious spices. You can eat it with
+                    diferent presentations like: </p>
+                <ul>
+                    <li>Torta</li>
+                    <li>Taco</li>
+                    <li>Tamal</li>
+                    <li>Sopes</li>
+                </ul>
+            </div>
+        </article>
+        <article>
+            <div class="card1" id="merida-park">
+                <img id="merida-park-img"
+                    src="https://www.tripsavvy.com/thmb/6gmJ8lknAseL-oB_KgMoWxLUR2k=/889x667/smart/filters:no_upscale()/Merida-4-ae8c8401d1834594916aadb2a7909f76.jpg"
+                    alt="Park at center of Mérida City">
+            </div>
+        </article>
+        <article>
+            <div class="card1">
+                <h2>Points of interest about Mérida</h2>
+                <h5>Sep. 13, 2022.</h5>
+                <p>Mérida is a grate place to embark on a fun day trip to exploring the places that offers. Here i leave
+                    you
+                    the best thing to see and do in Mérida:</p>
+                <ol>
+                    <li>Plaza Grande</li>
+                    <p>Plaza Grande is both the commercial and cultural hub of Mérida, and is a good place to start a
+                        walking tour of the old city center. In
+                        addition to being surrounded by some of Mérida's most important buildings, it's also a very
+                        pleasant
+                        space to simply hang out, thanks to its shady palm trees, beautiful flower gardens, and
+                        fountains.
+                    </p>
+                    <img clas="img-ol"
+                        src="https://www.planetware.com/wpimages/2021/01/mexico-merida-top-attractions-historic-plaza-mayor-plaza-grande.jpg">
+                    <li>Mayan World Museum of Mérida</li>
+                    <p>One of Mexico's most important museums, the Mayan World Museum of Mérida (Gran Museo del
+                        Mundo Maya) is dedicated to a fascinating culture, which is evident everywhere in Yucatán. The
+                        museum comprises four large permanent exhibitions housing more than 1,100 relics.</p>
+                    <img src="https://www.planetware.com/photos-large/MEX/mexico-merida-gran-museo-del-mundo-maya.jpg">
+                    <li>Mérida Cathedral</li>
+                    <p>On the east side of the Plaza Mayor, occupying the site of an earlier Maya temple, stands Mérida
+                        Cathedral. Built between 1561 and 1598, this impressive building is the largest church in
+                        Yucatán.
+                    </p>
+                    <img src="https://www.planetware.com/photos-large/MEX/mexico-merida-cathedral.jpg">
+                    <li>MACAY: The Museo de Arte Contemporáneo de Yucatán</li>
+                    <p>The Museum of Contemporary Art of Yucatán, known locally as MACAY, is one of
+                        the state's most important museums. This superb gallery is a joy to explore for its many
+                        excellent
+                        permanent and temporary exhibits of both modern and contemporary art.</p>
+                    <img src="https://www.planetware.com/photos-large/MEX/mexico-merida-macay.jpg">
+                    <li>The Natural History Museum and Palacio Canton</li>
+                    <p>Mérida's superb Natural History Museum (Museo de Arqueología e Historía) lies in the beautifully
+                        restored former government building known as the Palacio Cantón. The collection in this imposing
+                        19th-century building consists mostly of material associated with the Maya civilization's
+                        heyday,
+                        although other advanced cultures from pre-Columbian Mexico are also well represented.</p>
+                    <img src="https://www.planetware.com/photos-large/MEX/mexico-merida-natural-history-museum.jpg">
+                </ol>
+            </div>
+        </article>
+    </div>
+
 </body>
+
+<footer>
+    <div class="footer">
+        <h2>Tomás García López - Instituto Tecnológico Ksquare</h2>
+    </div>
+</footer>
+
 </html>
